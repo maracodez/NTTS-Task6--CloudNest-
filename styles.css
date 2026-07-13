@@ -243,7 +243,8 @@ body {
     background: var(--card-bg);
     border-radius: var(--radius-md);
     text-align: left;
-    padding: var(--space-lg);
+    padding-block: var(--space-lg);
+    padding-inline: var(--space-sm);
     margin-bottom: 22px;
     box-shadow: var(--shadow);
     transform: translateY(0);
@@ -281,7 +282,7 @@ body {
 .feat-secu,
 .feat-speed,
 .feat-a1l {
-    font-size: clamp(2.3rem, 2vw, 3rem);
+    font-size: clamp(2rem, 2vw, 3rem);
     padding-block: var(--space-md);
     font-weight: 500;
 }
@@ -289,7 +290,7 @@ body {
 .card-1 p,
 .card-2 p,
 .card-3 p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 2.4rem;
 }
 
@@ -307,12 +308,12 @@ body {
 .basicplan,
 .proplan,
 .custom-plan {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
 }
 
 .plan-price,
 .custom-price {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     padding-block: var(--space-md);
 }
 
@@ -324,7 +325,7 @@ body {
 .basic-benefit,
 .pro-benefit,
 .custom-benefit {
-    line-height: 3.8rem;
+    line-height: 3rem;
     font-size: 2rem;
     text-transform: capitalize;
 }
@@ -345,7 +346,7 @@ body {
     padding: var(--space-sm);
     box-shadow: var(--shadow);
     border-radius: var(--radius-md);
-    font-size: 2rem;
+    font-size: 1.9rem;
     cursor: pointer;
 }
 
@@ -360,7 +361,7 @@ body {
     background: #102F73;
     color: white;
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .reco {
@@ -418,7 +419,7 @@ body {
 }
 
 .contact-desc {
-    font-size: clamp(1.7rem, 3vw, 2.4rem);
+    font-size: clamp(1.5rem, 3vw, 2.4rem);
     line-height: 2.9rem;
 } 
 
@@ -427,7 +428,7 @@ body {
     display: flex;
     gap: 5%;
     margin-top: 30px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .mail-svg {
@@ -442,7 +443,7 @@ body {
 
 .mail img,
 .phone img {
-    width: 10%;
+    width: 11%;
     border-radius: var(--radius-lg);
 }
 
@@ -515,8 +516,8 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    gap: 5%;
-    font-size: 1.6rem;
+    gap: 3%;
+    font-size: 1.3rem;
     margin-bottom: 9%;
 }
 
@@ -533,7 +534,7 @@ footer {
 
 .copyright p {
     color: #E5E7EB;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: left;
     padding-block: var(--space-md);
 }
