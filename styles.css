@@ -170,10 +170,10 @@ body {
     background: var(--text);
     color: white;
     padding: var(--space-sm);
-    width: 80%;
+    width: 82%;
     border: none;
     border-radius: var(--radius-sm);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     box-shadow: var(--shadow);
     cursor: pointer;
 }
